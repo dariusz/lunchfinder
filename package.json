@@ -3,11 +3,12 @@
   "version": "0.0.1",
   "description": "Find Lunch Downtown Kitchener",
   "main": "index.js",
-  "dependencies": {
-    "yarn": "^1.3.2"
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^3.10.0"
   },
-  "devDependencies": {},
   "scripts": {
+    "build" : "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
